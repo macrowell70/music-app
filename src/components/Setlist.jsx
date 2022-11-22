@@ -1,4 +1,4 @@
-
+import './Setlist.css'
 
 const Setlist = () => {
   return (

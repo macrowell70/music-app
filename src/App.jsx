@@ -1,12 +1,5 @@
-import './styles/global.css'
-import './styles/reset.css'
 import './App.css'
-import { 
-  BrowserRouter as Router, 
-  Routes,
-  Route,
-  Link
-} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import { Home, Setlist } from './components'
 
