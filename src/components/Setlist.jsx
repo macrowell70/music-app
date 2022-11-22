@@ -1,8 +1,13 @@
 import './Setlist.css'
+import { songs } from '../constants'
 
 const Setlist = () => {
   return (
-    <div>Setlist</div>
+    <div>
+        {songs.map(song => (
+            <div key={song.id}>{`${song.title} - ${song.artist}`}</div>
+        ))}
+    </div>
   )
 }
 
